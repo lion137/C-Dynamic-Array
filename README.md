@@ -1,4 +1,4 @@
-### C-Dynamic-Array, non generic (int) implementation    
+### C Dynamic-Array, non generic (int) implementation    
 Copyleft 2017 by lion137     
 
    General remarks   
