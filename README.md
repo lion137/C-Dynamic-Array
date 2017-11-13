@@ -1,7 +1,6 @@
 ### C-Dynamic-Array, non generic (int) implementation
    General remarks   
-   
-	 The last possible memory allocation (8GIG internall RAM) for 2^n (resize 200%
+     The last possible memory allocation (8GIG internall RAM) for 2^n (resize 200%
 	 implementation)is: 1070000000 size integer array;
 	 the last allocation for n + n / 2(resize 150% implementation - current!) is  1500000000
 	 size integer array;
