@@ -6,9 +6,9 @@
 #include "tests.h"
 
 int main(){
+	//example
 	array_int * ar1 = array_int_init();
-	
-	 for (long i = 0; i<1000000000;i++){  
+	for (long i = 0; i<1000000000;i++){  
 		append(ar1, 1);   								 
 		}
 	print(ar1);
