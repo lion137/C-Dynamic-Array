@@ -14,7 +14,8 @@
 	 - pop;    
 	 - size;    
 	 - is_empty;  
-	 - get_nth;    
+	 - nth(obj, index) (peek the indexed element in the array);    
+	 - update(obj, elem, ind) (sets the ind - th elementh in the array to elem)    
 	 - print.    
    
 	
