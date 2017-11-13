@@ -6,17 +6,15 @@
 #include "tests.h"
 
 int main(){
-	 array_int * ar1 = array_int_init();
-	assert(ar1 != NULL);
-	assert(ar1->a == NULL);
-	 
-	for (long i = 0; i<1070000000;i++){  
+	array_int * ar1 = array_int_init();
+	
+	 for (long i = 0; i<1000000000;i++){  
 		append(ar1, 1);   								 
 		}
-	//print(ar1);
-	//printf("\n");
+	print(ar1);
+	printf("\n")
 	delete(ar1);
 	ar1 = NULL;
-	//tests();
+	tests();
 	return 0;
 	}
