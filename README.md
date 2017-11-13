@@ -1,4 +1,6 @@
-### C-Dynamic-Array, non generic (int) implementation
+### C-Dynamic-Array, non generic (int) implementation    
+Copyleft 2017 by lion137     
+
    General remarks   
      The last possible memory allocation (8GIG internall RAM) for 2^n (resize 200%
 	 implementation)is: 1070000000 size integer array;
@@ -16,6 +18,7 @@
 	 - is_empty;  
 	 - nth(obj, index) (peek the indexed element in the array);    
 	 - update(obj, elem, ind) (sets the ind - th elementh in the array to elem)    
-	 - print.    
+	 - print.      
+	 Delete object by call delete(obj) and set obj to NULL.
    
 	
