@@ -5,6 +5,16 @@
 	 the last allocation for n + n / 2(resize 150% implementation - current!) is  1500000000
 	 size integer array;
 	 time complexity similar, only 2o more resizing: #resize 50 now, 30 for 2^n implementation.
-	 C++ std:vector last allocation 1070000000 integers.
+	 C++ std:vector last allocation 1070000000 integers.    
+	 
+	 Usage:    
+	 array_int * x = array_int_init(); // constructor    
+	 functions over structure, all O(1):    
+	 - append (add at the end);    
+	 - pop;    
+	 - size;    
+	 - is_empty;  
+	 - get_nth;    
+	 - print.    
    
 	
